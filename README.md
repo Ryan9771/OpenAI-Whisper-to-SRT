@@ -1,7 +1,7 @@
 # Long audio to srt converter
 
 Converts longer audio from openai Whisper to an srt file. The program splits
-the chunks of music up, transcribes each, and combines all chunks into a srt file
+the chunks of audio up (into sizes that can be transcribed by Whisper), transcribes each, and combines all chunks into a srt file
 with continuous timestamps.
 
 ## Running the script
